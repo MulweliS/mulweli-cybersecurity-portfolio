@@ -89,15 +89,10 @@ function App() {
           </p>
 
           <div className="buttons">
-            #projects
-              View Security Projects
-            </a>
-
-            #contact
-              Contact Me
-            </a>
+  <span className="primary">View Security Projects</span>
+  <span className="secondary">Contact Me</span>
+</div>
           </div>
-        </div>
 
         <div className="terminal">
           <Terminal />
