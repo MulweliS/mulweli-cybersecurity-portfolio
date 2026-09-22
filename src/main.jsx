@@ -58,14 +58,14 @@ function App() {
         </a>
 
         <div className="links">
-          {["About", "Experience", "Certifications", "Projects", "Contact"].map(
-            (item) => (
-              }`} key={item}>
-                {item}
-              </a>
-            )
-          )}
-        </div>
+  {["About", "Experience", "Certifications", "Projects", "Contact"].map(
+    (item) => (
+      {`#${item.toLowerCase()}`}
+        {item}
+      </a>
+    )
+  )}
+</div>
       </nav>
 
       <section id="home" className="hero">
