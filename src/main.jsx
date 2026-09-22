@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Shield, Terminal, Award, BriefcaseBusiness, Linkedin, ChevronRight } from 'lucide-react';
+import { Shield, Terminal, Award, BriefcaseBusiness, LinkedinIcon, ChevronRight } from 'lucide-react';
 import './style.css';
 
 const certs=[
@@ -14,5 +14,5 @@ function App(){return <main><nav><a href="#home" className="brand"><Shield size=
 <section id="certifications" className="band"><small>CERTIFICATIONS</small><h2>Continuous professional development</h2><div className="grid">{certs.map(([n,s])=><div className="card cert" key={n}><Award className={s==='In Progress'?'amber':''}/><div><strong>{n}</strong><span className={s==='In Progress'?'status progress':'status'}>{s}</span></div></div>)}</div></section>
 <section><small>CAPABILITIES</small><h2>Technical focus</h2><div className="skills">{skills.map(x=><span key={x}>{x}</span>)}</div></section>
 <section id="projects" className="band"><small>PROJECTS</small><h2>Security portfolio</h2><p>Starter areas for completed lab evidence, screenshots and GitHub write-ups.</p><div className="projects">{projects.map(([a,b,c])=><article className="card" key={a}><small>{b}</small><h3>{a}</h3><p>{c}</p><span className="project-link">Project write-up <ChevronRight size={16}/></span></article>)}</div></section>
-<section id="contact" className="contact"><h2>Let's connect</h2><p>Open to opportunities where I can continue growing toward security operations and contribute my support, endpoint and incident-handling experience.</p><a className="primary" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mulweli-sinyegwe-a1b142175"><Linkedin size={18}/> LinkedIn</a></section><footer>© 2026 Mulweli Sinyegwe · Cybersecurity Portfolio</footer></main>}
+<section id="contact" className="contact"><h2>Let's connect</h2><p>Open to opportunities where I can continue growing toward security operations and contribute my support, endpoint and incident-handling experience.</p><a className="primary" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mulweli-sinyegwe-a1b142175">< <Linkedin size={18}/>/> LinkedIn</a></section><footer>© 2026 Mulweli Sinyegwe · Cybersecurity Portfolio</footer></main>}
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
