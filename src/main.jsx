@@ -55,18 +55,20 @@ function App() {
       <nav>
   #home
     <Shield size={20} /> MS
-  </a>
+  <nav>
+  <div className="brand">
+    <Shield size={20} />
+    <span>MS</span>
+  </div>
 
   <div className="links">
-    #aboutAbout</a>
-    #experienceExperience</a>
-    #certificationsCertifications</a>
-    #projectsProjects</a>
-    #contactContact</a>
+    <span>About</span>
+    <span>Experience</span>
+    <span>Certifications</span>
+    <span>Projects</span>
+    <span>Contact</span>
   </div>
 </nav>
-
-
       <section id="home" className="hero">
         <div>
           <span className="pill">● IT Support → Cybersecurity</span>
