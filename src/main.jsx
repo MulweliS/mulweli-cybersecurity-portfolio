@@ -57,14 +57,12 @@ function App() {
           <Shield size={20} /> MS
         </a>
 
-        <div className="links">
-  {["About", "Experience", "Certifications", "Projects", "Contact"].map(
-    (item) => (
-      {`#${item.toLowerCase()}`}
-        {item}
-      </a>
-    )
-  )}
+      <div className="links">
+  <span>About</span>
+  <span>Experience</span>
+  <span>Certifications</span>
+  <span>Projects</span>
+  <span>Contact</span>
 </div>
       </nav>
 
