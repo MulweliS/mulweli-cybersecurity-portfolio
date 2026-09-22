@@ -53,18 +53,19 @@ function App() {
   return (
     <main>
       <nav>
-        #home
-          <Shield size={20} /> MS
-        </a>
+  #home
+    <Shield size={20} /> MS
+  </a>
 
-      <div className="links">
-  <span>About</span>
-  <span>Experience</span>
-  <span>Certifications</span>
-  <span>Projects</span>
-  <span>Contact</span>
-</div>
-      </nav>
+  <div className="links">
+    #aboutAbout</a>
+    #experienceExperience</a>
+    #certificationsCertifications</a>
+    #projectsProjects</a>
+    #contactContact</a>
+  </div>
+</nav>
+
 
       <section id="home" className="hero">
         <div>
